@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for found_file in $(find . -name "*$1" -print);
 do
     # Gets the number of days since the last modification of the file
